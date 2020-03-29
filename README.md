@@ -3,7 +3,7 @@
 # Implementation of NodeJs learning
 
 
-## Tecnologias used
+## Tecnologies used
 
 ### Back End
 - NodeJS
