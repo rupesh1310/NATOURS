@@ -3,6 +3,25 @@
 # Implementation of NodeJs learning
 
 
+## Tecnologias used
+
+### Back End
+- NodeJS
+- Express
+- MongoDB
+- Mongoose
+- ESLint
+
+### Front End
+- Pug
+- CSS
+- Mapbox
+- Axios
+- Vanilla JS
+- JSON
+
+# How to use the application : 
+
 **import and delete data from dev-data folder**
 
 **Delete data**
