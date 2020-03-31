@@ -55,6 +55,8 @@ exports.getTour = async (req, res) => {
 
 exports.createTour = async (req, res) => {
   try {
+    // const newTour = new Tour({})
+    // newTour.save()
 
     const newTour = await Tour.create(req.body);
 
@@ -129,7 +131,9 @@ exports.getTourStats = async (req, res) => {
       {
         $sort: { avgPrice: 1 }
       }
-     
+      // {
+      //   $match: { _id: { $ne: 'EASY' } }
+      // }
     ]);
 
     res.status(200).json({
