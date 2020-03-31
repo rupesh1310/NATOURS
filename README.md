@@ -24,7 +24,5 @@ npm run start:prod
 MongoDb Atlas
 
 **api documentation**
-https://documenter.getpostman.com/view/5460344/SzS4STAA?version=latest
 
 **deployed app**
-https://limitless-peak-17087.herokuapp.com/
