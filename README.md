@@ -1,3 +1,5 @@
+https://forthebadge.com/images/badges/built-with-love.svg https://forthebadge.com/images/badges/made-with-javascript.svg  
+
 # NATOURS
 Implementation of node learning
 
