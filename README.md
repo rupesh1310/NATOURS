@@ -1,5 +1,5 @@
 ![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)  ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)  
- # :four_leaf_clover: :earth_asia: NATOURS
+ # :earth_asia: NATOURS
 
 ## 🚀&nbsp; Installation
 
@@ -45,4 +45,4 @@ node .\dev-data\data\import-dev-data.js --delete
 :pencil: **API documentation**
 
 
-:zap: **Deployed app**
+:zap:  :octocat: **Deployed app**
