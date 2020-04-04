@@ -44,4 +44,4 @@ node .\dev-data\data\import-dev-data.js --delete
 
 # :pencil: API documentation
 
-# :octocat: Deployed app
+# :zap: Deployed app
