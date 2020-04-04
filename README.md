@@ -21,7 +21,9 @@ node .\dev-data\data\import-dev-data.js --delete
 
 ## ✅&nbsp; Requirements
 > Latest version of node
+
 > MongoDB Atlas Account
+
 > Nodemailer Account
 
 ## :wrench: How to use
