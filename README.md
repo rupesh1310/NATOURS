@@ -1,9 +1,13 @@
 ![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)  ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)  
 # NATOURS
 
-## 🚀&nbsp; Installation 
+## 🚀&nbsp; Installation
 
-> Install NodeJs Application
+> NodeJs Application
+> MongoDB
+> MongoDB Atlas
+> npm
+> POSTMAN
 
 **import and delete data from dev-data folder**
 
@@ -11,22 +15,26 @@
 node .\dev-data\data\import-dev-data.js --delete
 
 ## ✅&nbsp; Requirements
+> Latest version of node
+> MongoDB Atlas Account
+> Nodemailer Account
 
-**import data**
-node .\dev-data\data\import-dev-data.js --import
+## :wrench: How to use
+**Import Data**
+> node .\dev-data\data\import-dev-data.js --import
 
-**start in development**
-npm run start:dev
-npm run watch:js
+**Start in development**
+> npm run start:dev
+> npm run watch:js
 
-**start in debug**
-npm run debug
+**Start in debug**
+> npm run debug
 
-**start in production**
-npm run start:prod
+**Start in production**
+> npm run start:prod
 
 **Database**
-MongoDb Atlas
+> MongoDb Atlas
 
 <h1 align="center"> ️💚️ Contributors 💚 </h1>
 
@@ -34,6 +42,7 @@ MongoDb Atlas
 <!-- prettier-ignore -->
 [<img src="https://avatars1.githubusercontent.com/u/30566706?s=460&u=fa66403c14af5eafd23a330aee2b3864ed35c9c9&v=4" width="100px;"/><br /><sub><b>A.RUPESH</b></sub>](https://github.com/rupesh1310)<br />
 
-**API documentation**
+:pencil: **API documentation**
 
-**Deployed app**
+
+:zap: **Deployed app**
