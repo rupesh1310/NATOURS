@@ -4,11 +4,15 @@
 
 ## 🚀&nbsp; Installation
 
-`> NodeJs Application`
-`> MongoDB`
-`> MongoDB Atlas`
-`> npm`
-`> POSTMAN`
+`NodeJs Application`
+
+`MongoDB`
+
+`MongoDB Atlas`
+
+`npm`
+
+`POSTMAN`
 
 **import and delete data from dev-data folder**
 
@@ -16,9 +20,11 @@
 node .\dev-data\data\import-dev-data.js --delete
 
 ## ✅&nbsp; Requirements
-> Latest version of node
-> MongoDB Atlas Account
-> Nodemailer Account
+ `Latest version of node`
+
+`MongoDB Atlas Account`
+
+`Nodemailer Account`
 
 ## :wrench: How to use
 **Import Data**
