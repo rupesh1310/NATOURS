@@ -20,11 +20,11 @@
 node .\dev-data\data\import-dev-data.js --delete
 
 ## ✅&nbsp; Requirements
-> Latest version of node
+ `Latest version of node`
 
-> MongoDB Atlas Account
+`MongoDB Atlas Account`
 
-> Nodemailer Account
+`Nodemailer Account`
 
 ## :wrench: How to use
 **Import Data**
