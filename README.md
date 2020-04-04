@@ -1,13 +1,13 @@
 ![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)  ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)  
-# NATOURS
+ :four_leaf_clover:  :earth_asia: # NATOURS
 
 ## 🚀&nbsp; Installation
 
-> NodeJs Application
-> MongoDB
-> MongoDB Atlas
-> npm
-> POSTMAN
+`> NodeJs Application`
+`> MongoDB`
+`> MongoDB Atlas`
+`> npm`
+`> POSTMAN`
 
 **import and delete data from dev-data folder**
 
