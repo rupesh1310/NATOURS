@@ -1,6 +1,11 @@
  # :earth_asia: NATOURS
 
-![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)  ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)  
+![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)  
+![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)  
+![](https://img.shields.io/badge/%E2%86%91_Deploy_to-Heroku-7056bf.svg?style=for-the-badge&display=inline-block&logo=heroku)
+![](https://img.shields.io/badge/MongoDB-3.6-brightgreen.svg?style=for-the-badge&display=inline-block&logo=mongodb)
+![](https://img.shields.io/badge/html-5-blue.svg?style=for-the-badge&display=inline-block&logo=html5)
+![](https://img.shields.io/badge/css-3-green.svg?style=for-the-badge&display=inline-block&logo=css3)
 
 ## 🚀&nbsp; Installation
 
