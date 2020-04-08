@@ -16,7 +16,7 @@
 
 `POSTMAN`
 
-**import and delete data from dev-data folder**
+## &nbsp; **Import and Delete data from dev-data folder**
 
 **Delete Data**
 
