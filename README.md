@@ -19,7 +19,9 @@
 **import and delete data from dev-data folder**
 
 **Delete data**
-node .\dev-data\data\import-dev-data.js --delete
+`node .\dev-data\data\import-dev-data.js --delete`
+
+`node .\dev-data\data\import-dev-data.js --import`
 
 ## ✅&nbsp; Requirements
  `Latest version of node`
