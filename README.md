@@ -16,7 +16,7 @@
 
 `POSTMAN`
 
-## &nbsp; **Import and Delete data from dev-data folder**
+## :pencil: &nbsp; **Import and Delete data from dev-data folder**
 
 **Delete Data**
 
