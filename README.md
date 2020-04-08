@@ -18,8 +18,11 @@
 
 **import and delete data from dev-data folder**
 
-**Delete data**
+**Delete Data**
+
 `node .\dev-data\data\import-dev-data.js --delete`
+
+**Import Data**
 
 `node .\dev-data\data\import-dev-data.js --import`
 
