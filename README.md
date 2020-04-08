@@ -51,7 +51,7 @@
 > MongoDb Atlas
 
 # :pencil: API documentation
-[![](https://img.shields.io/badge/Demo-yellow.svg?style=for-the-badge)](https://documenter.getpostman.com/view/5289109/SzYeuaEL?version=latest)
+[![](https://img.shields.io/badge/API Documentation-red.svg?style=for-the-badge)](https://documenter.getpostman.com/view/5289109/SzYeuaEL?version=latest)
 
 
 # :zap: Deployed app
