@@ -1,3 +1,35 @@
 /* eslint-disable */
 const locations = JSON.parse(document.getElementById('map').dataset.locations);
 console.log(locations);
+
+mapboxgl.accessToken =
+  'pk.eyJ1IjoicnVwZXNoMTMxMCIsImEiOiJjazhzbnpqYWkwMWFlM2Rud3NpN2IxMW1nIn0.dsd7HNsP_E-dA8XrCG3lWg';
+
+var map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/rupesh1310/ck8sok2s90s951invb76ca5uf',
+  // center: [-118.113491, 34.111745],
+  // zoom: 10,
+  // interactive: false,
+});
+
+const bounds = new mapboxgl.LngLatBounds();
+
+locations.forEach((loc) => {
+  // Create marker
+  const el = document.createElement('div');
+  el.className = 'marker';
+  // Add marker
+  new mapboxgl.Marker({
+    element: el,
+    anchor: 'bottom',
+  })
+    .setLngLat(loc.coordinates)
+    .addTo(map);
+  // Extend map bounds to include the current location
+  bounds.extend(loc.coordinates);
+});
+
+map.fitBounds(bounds, {
+  padding: { top: 200, bottom: 100, left: 100, right: 100 },
+});
