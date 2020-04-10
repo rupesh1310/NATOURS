@@ -12,7 +12,7 @@ const factory = require('./handlerFactory');
 //   filename: (req, file, cb) => {
 //     const ext = file.mimetype.split('/')[1];
 //     cb(null, `user-${req.user.id}-${Date.now()}.${ext}`);
-//   },
+//   }
 // });
 const multerStorage = multer.memoryStorage();
 
@@ -31,14 +31,19 @@ const upload = multer({
 
 exports.uploadUserPhoto = upload.single('photo');
 
-exports.resizeUserPhoto = (res, req, next) => {
+exports.resizeUserPhoto = catchAsync(async (req, res, next) => {
   if (!req.file) return next();
 
-  sharp(req.file.buffer)
+  req.file.filename = `user-${req.user.id}-${Date.now()}.jpeg`;
+
+  await sharp(req.file.buffer)
     .resize(500, 500)
     .toFormat('jpeg')
-    .jpeg({ quality: 90 });
-};
+    .jpeg({ quality: 90 })
+    .toFile(`public/img/users/${req.file.filename}`);
+
+  next();
+});
 
 const filterObj = (obj, ...allowedFields) => {
   const newObj = {};
@@ -54,7 +59,7 @@ exports.getMe = (req, res, next) => {
 };
 
 exports.updateMe = catchAsync(async (req, res, next) => {
-  // 1) Create error if user POSTS password data
+  // 1) Create error if user POSTs password data
   if (req.body.password || req.body.passwordConfirm) {
     return next(
       new AppError(
@@ -64,12 +69,12 @@ exports.updateMe = catchAsync(async (req, res, next) => {
     );
   }
 
-  // 2)Filtered out undwanted field names that are not allowed to be updated
+  // 2) Filtered out unwanted fields names that are not allowed to be updated
   const filteredBody = filterObj(req.body, 'name', 'email');
   if (req.file) filteredBody.photo = req.file.filename;
 
   // 3) Update user document
-  const updatedUsers = await User.findByIdAndUpdate(req.user.id, filteredBody, {
+  const updatedUser = await User.findByIdAndUpdate(req.user.id, filteredBody, {
     new: true,
     runValidators: true,
   });
@@ -77,7 +82,7 @@ exports.updateMe = catchAsync(async (req, res, next) => {
   res.status(200).json({
     status: 'success',
     data: {
-      user: updatedUsers,
+      user: updatedUser,
     },
   });
 });
@@ -87,20 +92,20 @@ exports.deleteMe = catchAsync(async (req, res, next) => {
 
   res.status(204).json({
     status: 'success',
-    data: 'null',
+    data: null,
   });
 });
 
 exports.createUser = (req, res) => {
   res.status(500).json({
     status: 'error',
-    message: 'This route is not yet defined! Please use /signup instead',
+    message: 'This route is not defined! Please use /signup instead',
   });
 };
 
-exports.getUser = factory.updateOne(User);
+exports.getUser = factory.getOne(User);
 exports.getAllUsers = factory.getAll(User);
 
-// Do not upadte passwords with this!
+// Do NOT update passwords with this!
 exports.updateUser = factory.updateOne(User);
 exports.deleteUser = factory.deleteOne(User);
