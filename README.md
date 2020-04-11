@@ -8,7 +8,7 @@
 
 <h4 align="center">An awesome tour booking site built on top of <a href="https://nodejs.org/en/" target="_blank">NodeJS</a>.</h4>
  <p align="center">
-  <a href="#key-features">Key Features</a> •
+  <a href="#key-features">Key Features of the Application</a> •
   <a href="#demonstration">Demonstration</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#api-usage">API Usage</a> •
@@ -19,7 +19,7 @@
   <a href="#future-updates">Future Updates</a> • 
 </p>
 
-## :sparkles: Key Features
+## :sparkles: Key Features of the Application
 
 * Authentication and Authorization
   - Login and logout
