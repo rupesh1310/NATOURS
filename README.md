@@ -1,3 +1,9 @@
+![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg) 
+![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg) 
+![](https://img.shields.io/badge/MongoDB-3.6-brightgreen.svg?style=for-the-badge&display=inline-block&logo=mongodb)
+![](https://img.shields.io/badge/html-5-blue.svg?style=for-the-badge&display=inline-block&logo=html5)
+![](https://img.shields.io/badge/css-3-green.svg?style=for-the-badge&display=inline-block&logo=css3)
+
 <h1 align="center">
   <br>
   <img src="https://github.com/rupesh1310/NATOURS/blob/master/public/img/logo-green-round.png" alt="Natours" width="200"></a>
