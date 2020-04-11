@@ -30,7 +30,7 @@
 * Credit card Payment
 
 
-## Demonstration
+##  :tv: Demonstration
 #### Home Page :
 ![natoursHomePageonline-video-cutt](https://user-images.githubusercontent.com/58518192/72606801-7ebe0680-3949-11ea-8e88-613f022a64e5.gif)
 
@@ -51,7 +51,7 @@
 ![rsz_adminprofile](https://user-images.githubusercontent.com/58518192/72607648-4d463a80-394b-11ea-972f-a73160cfaa5b.png)
 
 
-## How To Use
+## :pencil: How To Use
 
 ### Book a tour
 * Login to the site
@@ -79,7 +79,7 @@
 
 
 
-## API Usage
+## :books: API Usage
 Before using the API, you need to set the variables in Postman depending on your environment (development or production). Simply add: 
   ```
   - {{URL}} with your hostname as value (Eg. http://127.0.0.1:3000 or http://www.example.com)
@@ -91,7 +91,7 @@ Check [Natours API Documentation](https://documenter.getpostman.com/view/5289109
 
 
 
-## Build With
+## :hammer: Build With
 
 * [NodeJS](https://nodejs.org/en/) - JS runtime environment
 * [Express](http://expressjs.com/) - The web framework used
@@ -107,7 +107,7 @@ Check [Natours API Documentation](https://documenter.getpostman.com/view/5289109
 
 
 
-## To-do
+## :pushpin: To-do
 
 * Review and rating
   - Allow user to add a review directly at the website after they have taken a tour
@@ -118,7 +118,7 @@ Check [Natours API Documentation](https://documenter.getpostman.com/view/5289109
 * And More ! There's always room for improvement!
 
 
-## Installation
+## :wrench: Installation
 You can fork the app or you can git-clone the app into your local machine. Once done that, please install all the
 dependencies by running
 ```
@@ -137,7 +137,7 @@ eslint-plugin-import eslint-plugin-jsx-a11y  eslint-plugin-react --save-dev
 
 
 
-## Future Updates
+## :zap: Future Updates
 
 * Enable PWA
 * Improve overall UX/UI and fix bugs
