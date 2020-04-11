@@ -2,7 +2,7 @@
   <br>
   <img src="https://github.com/rupesh1310/NATOURS/blob/master/public/img/logo-green-round.png" alt="Natours" width="200"></a>
   <br>
-   :earth_asia: Natours
+  Natours
   <br>
 </h1>
 
@@ -20,7 +20,7 @@
   <a href="#future-updates">Future Updates</a> • 
 </p>
 
-## Key Features
+## :sparkles: Key Features
 
 * Authentication and Authorization
   - Login and logout
