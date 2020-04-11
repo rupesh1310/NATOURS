@@ -8297,7 +8297,7 @@ function () {
             _context.next = 3;
             return (0, _axios.default)({
               method: 'POST',
-              url: 'http://127.0.1:3000/api/v1/users/login',
+              url: 'http://127.0.0.1:3000/api/v1/users/login',
               data: {
                 email: email,
                 password: password
@@ -8399,7 +8399,7 @@ function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
-// Type is either 'password' or 'data'
+// type is either 'password' or 'data'
 var updateSettings =
 /*#__PURE__*/
 function () {
@@ -8412,7 +8412,7 @@ function () {
         switch (_context.prev = _context.next) {
           case 0:
             _context.prev = 0;
-            url = type === 'password' ? 'http://127.0.1:3000/api/v1/users/updateMyPassword' : 'http://127.0.1:3000/api/v1/users/updateMe';
+            url = type === 'password' ? 'http://127.0.0.1:3000/api/v1/users/updateMyPassword' : 'http://127.0.0.1:3000/api/v1/users/updateMe';
             _context.next = 4;
             return (0, _axios.default)({
               method: 'PATCH',
@@ -8424,7 +8424,7 @@ function () {
             res = _context.sent;
 
             if (res.data.status === 'success') {
-              (0, _alerts.showAlert)('success', "".concat(type.toUpperCase(), " Data updated successfully! "));
+              (0, _alerts.showAlert)('success', "".concat(type.toUpperCase(), " updated successfully!"));
             }
 
             _context.next = 11;
@@ -8885,7 +8885,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60261" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52490" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

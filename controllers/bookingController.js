@@ -6,7 +6,6 @@ const factory = require('./handlerFactory');
 
 exports.getCheckoutSession = catchAsync(async (req, res, next) => {
   // 1) Get the currently booked tour
-
   const tour = await Tour.findById(req.params.tourId);
   console.log(tour);
 
@@ -26,15 +25,15 @@ exports.getCheckoutSession = catchAsync(async (req, res, next) => {
         images: [`https://www.natours.dev/img/tours/${tour.imageCover}`],
         amount: tour.price * 100,
         currency: 'usd',
-        quantity: 1,
-      },
-    ],
+        quantity: 1
+      }
+    ]
   });
 
   // 3) Create session as response
   res.status(200).json({
     status: 'success',
-    session,
+    session
   });
 });
 
@@ -47,3 +46,9 @@ exports.createBookingCheckout = catchAsync(async (req, res, next) => {
 
   res.redirect(req.originalUrl.split('?')[0]);
 });
+
+exports.createBooking = factory.createOne(Booking);
+exports.getBooking = factory.getOne(Booking);
+exports.getAllBookings = factory.getAll(Booking);
+exports.updateBooking = factory.updateOne(Booking);
+exports.deleteBooking = factory.deleteOne(Booking);
