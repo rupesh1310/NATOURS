@@ -1,4 +1,3 @@
- # :earth_asia: NATOURS
 <h1 align="center">
   <br>
   <img src="https://github.com/rupesh1310/NATOURS/blob/master/public/img/logo-green-round.png" alt="Natours" width="200"></a>
@@ -19,11 +18,7 @@
   <a href="#installation">Installation</a> • 
   <a href="#known-bugs">Known Bugs</a> • 
   <a href="#future-updates">Future Updates</a> • 
-  <a href="#acknowledgement">Acknowledgement</a>
 </p>
-![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)  ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg) ![](https://img.shields.io/badge/MongoDB-3.6-brightgreen.svg?style=for-the-badge&display=inline-block&logo=mongodb)
-![](https://img.shields.io/badge/html-5-blue.svg?style=for-the-badge&display=inline-block&logo=html5)
-![](https://img.shields.io/badge/css-3-green.svg?style=for-the-badge&display=inline-block&logo=css3)
 
 ## Key Features
 
@@ -90,9 +85,11 @@ Before using the API, you need to set the variables in Postman depending on your
   ```
   - {{URL}} with your hostname as value (Eg. http://127.0.0.1:3000 or http://www.example.com)
   - {{password}} with your user password as value.
+  ```
 
-# :pencil: API documentation
 Check [Natours API Documentation](https://documenter.getpostman.com/view/5289109/SzYeuaEL?version=latest#b54e7992-c3dd-48dd-a6f6-66561bf12261) for more info.
+
+
 
 
 ## Build With
@@ -109,6 +106,8 @@ Check [Natours API Documentation](https://documenter.getpostman.com/view/5289109
 * [Mailtrap](https://mailtrap.io/) & [Sendgrid](https://sendgrid.com/) - Email delivery platform
 * [Heroku](https://www.heroku.com/) - Cloud platform
 
+
+
 ## To-do
 
 * Review and rating
@@ -120,7 +119,7 @@ Check [Natours API Documentation](https://documenter.getpostman.com/view/5289109
 * And More ! There's always room for improvement!
 
 
-## 🚀&nbsp; Installation
+## Installation
 You can fork the app or you can git-clone the app into your local machine. Once done that, please install all the
 dependencies by running
 ```
@@ -136,40 +135,7 @@ Setting up ESLint and Prettier in VS Code 👇
 $ npm i eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-config-airbnb eslint-plugin-node
 eslint-plugin-import eslint-plugin-jsx-a11y  eslint-plugin-react --save-dev
 ```
-## :pencil: &nbsp; **Import and Delete data from dev-data folder**
 
-**Delete Data**
-
-`node .\dev-data\data\import-dev-data.js --delete`
-
-**Import Data**
-
-`node .\dev-data\data\import-dev-data.js --import`
-
-
-## ✅&nbsp; Requirements
- `Latest version of node`
-
-`MongoDB Atlas Account`
-
-`Mailtrap Account`
-
-## :wrench: How to use
-**Import Data**
-> node .\dev-data\data\import-dev-data.js --import
-
-**Start in development**
-> npm run start:dev
-> npm run watch:js
-
-**Start in debug**
-> npm run debug
-
-**Start in production**
-> npm run start:prod
-
-**Database**
-> MongoDb Atlas
 
 
 ## Future Updates
@@ -179,10 +145,3 @@ eslint-plugin-import eslint-plugin-jsx-a11y  eslint-plugin-react --save-dev
 * Featured Tours
 * Recently Viewed Tours
 * And More ! There's always room for improvement!
-
-
-<h1 align="center"> ️💚️ Contributors 💚 </h1>
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-[<img src="https://avatars1.githubusercontent.com/u/30566706?s=460&u=fa66403c14af5eafd23a330aee2b3864ed35c9c9&v=4" width="100px;"/><br /><sub><b>A.RUPESH</b></sub>](https://github.com/rupesh1310)<br />
