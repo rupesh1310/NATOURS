@@ -31,7 +31,7 @@
 
 `MongoDB Atlas Account`
 
-`Nodemailer Account`
+`Mailtrap Account`
 
 ## :wrench: How to use
 **Import Data**
