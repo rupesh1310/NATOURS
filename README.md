@@ -2,7 +2,7 @@
   <br>
   <img src="https://github.com/rupesh1310/NATOURS/blob/master/public/img/logo-green-round.png" alt="Natours" width="200"></a>
   <br>
-  Natours
+   :earth_asia: Natours
   <br>
 </h1>
 
