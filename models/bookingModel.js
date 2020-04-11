@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+// Booking Modellings
 const bookingSchema = new mongoose.Schema({
   tour: {
     type: mongoose.Schema.ObjectId,
