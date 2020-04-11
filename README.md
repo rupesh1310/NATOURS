@@ -7,12 +7,11 @@
 </h1>
 
 <h4 align="center">An awesome tour booking site built on top of <a href="https://nodejs.org/en/" target="_blank">NodeJS</a>.</h4>
-<h4> ![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)  
+ ![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)  
   ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg) 
   ![](https://img.shields.io/badge/MongoDB-3.6-brightgreen.svg?style=for-the-badge&display=inline-block&logo=mongodb)
 ![](https://img.shields.io/badge/html-5-blue.svg?style=for-the-badge&display=inline-block&logo=html5)
 ![](https://img.shields.io/badge/css-3-green.svg?style=for-the-badge&display=inline-block&logo=css3)
-</h4>
 
 
  <p align="center">
